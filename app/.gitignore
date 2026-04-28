@@ -1,0 +1,73 @@
+# Dependencias
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Build / outputs
+build/
+dist/
+.web-build/
+
+# Metro / React Native cache
+.expo/
+.expo-shared/
+.expo-cache/
+metro-cache/
+.cache/
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+*.keystore
+*.jks
+
+# iOS
+ios/build/
+ios/Pods/
+ios/*.xcworkspace
+ios/*.xcuserdata
+ios/*.xcodeproj/project.xcworkspace
+*.xcuserstate
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Coverage
+coverage/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Debug
+*.log
+
+# Archivos locales de configuración
+*.local
+
+# Expo (por si usas algo híbrido)
+.expo-settings.json
+
+# Archivos de lock opcionales (mantén SOLO uno si quieres)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
